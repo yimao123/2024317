@@ -1,0 +1,3 @@
+/home/saoge/NiuBi/cmakeTest/testNeWbi/build/CMakeFiles/rebuild_cache.dir
+/home/saoge/NiuBi/cmakeTest/testNeWbi/build/CMakeFiles/main.dir
+/home/saoge/NiuBi/cmakeTest/testNeWbi/build/CMakeFiles/edit_cache.dir
