@@ -1,0 +1,25 @@
+#include "widget.h"
+#include "ui_widget.h"
+
+Widget::Widget(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::Widget)
+{
+    ui->setupUi(this);
+    ui->test;
+    //下边的工作
+    //1112到1215
+    //点击按钮换一幅
+}
+
+Widget::~Widget()
+{
+    delete ui;
+}
+
+void Widget::on_pushButton_clicked()
+{
+    static int count=0;
+    count++;
+    ui->stackedWidget->setCurrentIndex(count%2);
+}

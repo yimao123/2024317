@@ -1,0 +1,15 @@
+下载安装包通过git或者直接下载zip包都可以
+然后按下边链接操作
+
+```cpp
+https://blog.csdn.net/Mr_robot_strange/article/details/108446887?spm=1001.2014.3001.5506
+```
+还有两步是
+
+```cpp
+在测试pro里边添加
+DEFINES += QT_DLL QWT_DLL
+若找不到头文件
+试试傻瓜式添加例如
+#include <./Qwt/qwt_plot.h>
+```
