@@ -1,0 +1,46 @@
+﻿生成启动时间为 2023/12/24 16:44:48。
+     1>项目“F:\qtproject\TestTouMin\TestTouMin\TestTouMin.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>QtVars:
+         WHERE /Q cl.exe
+         ("C:/Qt/Qt5.7.1_X86/5.7/msvc2015/bin/qmake" -query) 1> props.txt
+         Reading Qt configuration (C:/Qt/Qt5.7.1_X86/5.7/msvc2015/bin/qmake)
+         ("C:/Qt/Qt5.7.1_X86/5.7/msvc2015/bin/qmake" "CONFIG -= debug release debug_and_release" "CONFIG += debug" qtvars.pro) 1> qtvars.log 2>&1
+     1>项目“F:\qtproject\TestTouMin\TestTouMin\TestTouMin.vcxproj”(1)正在节点 2 上生成“F:\qtproject\TestTouMin\TestTouMin\TestTouMin.vcxproj”(1:2) (Build 个目标)。
+     1>QtWork:
+         uic TestQPainter.ui
+         uic TestTouMin.ui
+         uic TimeLineWidget.ui
+         rcc TestTouMin.qrc
+         moc TestTouMin.h
+         moc TimeLineWidget.h
+         moc TestQPainter.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IDebug\uic /IDebug\moc /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtWidgets /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtGui /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtANGLE /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtCore /I"C:\Qt\Qt5.7.1_X86\5.7\msvc2015\mkspecs\win32-msvc2015" /IDebug\moc /IDebug\uic /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TimeLineWidget.cpp TestQPainter.cpp TestTouMin.cpp main.cpp
+         TimeLineWidget.cpp
+         TestQPainter.cpp
+         TestTouMin.cpp
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IDebug\uic /IDebug\moc /IF:\qtproject\TestTouMin\TestTouMin\ /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtWidgets /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtGui /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtANGLE /IC:\Qt\Qt5.7.1_X86\5.7\msvc2015\include\QtCore /I"C:\Qt\Qt5.7.1_X86\5.7\msvc2015\mkspecs\win32-msvc2015" /IDebug\moc /IDebug\uic /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Debug\rcc\qrc_TestTouMin.cpp Debug\moc\moc_TestTouMin.cpp Debug\moc\moc_TimeLineWidget.cpp Debug\moc\moc_TestQPainter.cpp
+         qrc_TestTouMin.cpp
+         moc_TestTouMin.cpp
+         moc_TimeLineWidget.cpp
+         moc_TestQPainter.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\TestTouMin.res" TestTouMin.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\qtproject\TestTouMin\Debug\TestTouMin.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\qtmaind.lib shell32.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Widgetsd.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Guid.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\qtproject\TestTouMin\Debug\TestTouMin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\qtproject\TestTouMin\Debug\TestTouMin.lib" /MACHINE:X86 /SAFESEH Debug\TestTouMin.res
+         Debug\TimeLineWidget.obj
+         Debug\TestQPainter.obj
+         Debug\TestTouMin.obj
+         Debug\main.obj
+         Debug\qrc_TestTouMin.obj
+         Debug\moc_TestTouMin.obj
+         Debug\moc_TimeLineWidget.obj
+         Debug\moc_TestQPainter.obj
+         TestTouMin.vcxproj -> F:\qtproject\TestTouMin\Debug\TestTouMin.exe
+     1>已完成生成项目“F:\qtproject\TestTouMin\TestTouMin\TestTouMin.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“F:\qtproject\TestTouMin\TestTouMin\TestTouMin.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:28.19

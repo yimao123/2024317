@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/TestTouMin">
+        <file>19_big.jpg</file>
+    </qresource>
+</RCC>
