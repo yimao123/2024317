@@ -1,0 +1,14 @@
+在当前目录及其子目录查找包含不区分大小写的"Windows"的文件
+findstr /s /i Windows *.*
+
+linux命令
+find . -type f -name "*.txt" -exec ls -l {} 
+
+find . -type f -name "*.txt"|xargs ls -l
+find . -type f -name "*.txt"|xargs grep                 
+
+研究一下当前项目的框架
+函数入口点
+//起码飞完再更新吧
+
+                                                                                                     

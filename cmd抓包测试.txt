@@ -1,0 +1,14 @@
+netsh trace start capture = yes
+
+跟踪配置:
+-------------------------------------------------------------------
+状态:             正在运行
+跟踪文件:         C:\Users\Lenovo\AppData\Local\Temp\NetTraces\NetTrace.etl
+附加:             关闭
+循环:           启用
+最大大小:           512 MB
+报告:             关闭
+
+
+C:\WINDOWS\system32>netsh trace stop
+正在合并跟踪 ... 完成

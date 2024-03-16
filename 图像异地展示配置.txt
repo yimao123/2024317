@@ -1,0 +1,13 @@
+ssh
+服务器端
+vim /etc/ssh/sshd_config 
+X11Forwarding yes
+确保这一行正确
+客户端配置
+ForwardAgent yes
+ 21    ForwardX11 yes
+ 22    ForwardX11Trusted yes
+
+cd /etc/init.d这个目录下执行./ssh/restart
+首先终端未连接ssh之前，执行xhost +2.2.2.2这个步骤是允许ssh服务器的X界面连接过来
+然后执行ssh -X user@2.2.2.2
