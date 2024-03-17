@@ -1,0 +1,15 @@
+﻿生成启动时间为 2024/3/17 12:54:49。
+     1>项目“F:\qtproject\QtWidgetsApplication12\QtWidgetsApplication12\QtWidgetsApplication12.vcxproj”在节点 2 上(Build 个目标)。
+     1>项目“F:\qtproject\QtWidgetsApplication12\QtWidgetsApplication12\QtWidgetsApplication12.vcxproj”(1)正在节点 2 上生成“F:\qtproject\QtWidgetsApplication12\QtWidgetsApplication12\QtWidgetsApplication12.vcxproj”(1:2) (Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\qtproject\QtWidgetsApplication12\Release\QtWidgetsApplication12.exe" /NOLOGO /LIBPATH:F:\qtproject\QtWidgetsApplication12\Release\ /LIBPATH:C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib test2UI.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\qtmain.lib shell32.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Widgets.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Gui.lib C:\Qt\Qt5.7.1_X86\5.7\msvc2015\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\qtproject\QtWidgetsApplication12\Release\QtWidgetsApplication12.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\qtproject\QtWidgetsApplication12\Release\QtWidgetsApplication12.lib" /MACHINE:X86 /SAFESEH Release\QtWidgetsApplication12.obj
+         Release\main.obj
+         Release\qrc_QtWidgetsApplication12.obj
+         Release\moc_QtWidgetsApplication12.obj
+         QtWidgetsApplication12.vcxproj -> F:\qtproject\QtWidgetsApplication12\Release\QtWidgetsApplication12.exe
+     1>已完成生成项目“F:\qtproject\QtWidgetsApplication12\QtWidgetsApplication12\QtWidgetsApplication12.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“F:\qtproject\QtWidgetsApplication12\QtWidgetsApplication12\QtWidgetsApplication12.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.44
